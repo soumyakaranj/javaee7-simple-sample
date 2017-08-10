@@ -139,39 +139,3 @@
         </profile>
       </profiles>
 </project>
-<project>
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.codehaus.mojo</groupId>
-                <artifactId>cobertura-maven-plugin</artifactId>
-                <version>2.5.1</version>
-                <configuration>
-                    <formats>
-                        <format>xml</format>
-                    </formats>
-                </configuration>
-                <executions>
-                    <execution>
-                        <phase>package</phase>
-                        <goals>
-                            <goal>cobertura</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>
-        </plugins>
-    </build>
- <distributionManagement>
-     <repository>
-         <id>releases</id>
-         <name>Releases</name>
-         <url>http://ec2-34-227-224-238.compute-1.amazonaws.com:8081/nexus/content/repositories/releases/</url>
-     </repository>
-     <snapshotRepository>
-         <id>snapshots</id>
-         <name>Snapshots</name>
-         <url>http://ec2-34-227-224-238.compute-1.amazonaws.com:8081/nexus/content/repositories/snapshots/</url>
-     </snapshotRepository>
-</distributionManagement>  
-  </project>
