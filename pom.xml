@@ -137,7 +137,7 @@
                 </plugins>
             </build>
         </profile>
-</project>
+      </profiles>
 <project ...>
     ...
     <build>
